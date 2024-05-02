@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import link from '../assets/link-icon.png'
 
 const ProjectCard = ({
   index,
@@ -42,6 +43,18 @@ const ProjectCard = ({
                 src={github}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+          </div>
+          <div className='absolute inset-0 flex justify-end  right-3 top-[3.5rem] card-img_hover'>
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={link}
+                alt='source code'
+                className='object-contain w-8 h-8'
               />
             </div>
           </div>
@@ -89,6 +102,9 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
+        {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

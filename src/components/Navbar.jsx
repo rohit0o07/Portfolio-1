@@ -25,11 +25,15 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+
+  
+
   return (
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center py-5 fixed top-0 z-[99999] ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -42,10 +46,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+          {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
+          <p className='text-white text-[28px] font-bold cursor-pointer flex '>
+            <span className="">SHA<span className="text-[#915EFF]">SHI</span> KIR<span className="text-[#915EFF]">AN</span>. {" "}</span> &nbsp;
+            {/* <span className='sm:block hidden'>Full <span className="text-[#915EFF]">Stack</span> Mern <span className="text-[#915EFF]">Developer</span></span> */}
           </p>
         </Link>
 
