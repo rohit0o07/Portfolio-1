@@ -46,7 +46,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
+          <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> 
           <p className='text-white text-[28px] font-bold cursor-pointer flex '>
             <span className="">ROH<span className="text-[#915EFF]">IT</span> HAMIL<span className="text-[#915EFF]">PUR</span>. {" "}</span> &nbsp;
             {/* <span className='sm:block hidden'>Full <span className="text-[#915EFF]">Stack</span> Mern <span className="text-[#915EFF]">Developer</span></span> */}
