@@ -48,7 +48,7 @@ const Navbar = () => {
         >
           {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
           <p className='text-white text-[28px] font-bold cursor-pointer flex '>
-            <span className="">SHA<span className="text-[#915EFF]">SHI</span> KIR<span className="text-[#915EFF]">AN</span>. {" "}</span> &nbsp;
+            <span className="">ROH<span className="text-[#915EFF]">IT</span> HAMIL<span className="text-[#915EFF]">PUR</span>. {" "}</span> &nbsp;
             {/* <span className='sm:block hidden'>Full <span className="text-[#915EFF]">Stack</span> Mern <span className="text-[#915EFF]">Developer</span></span> */}
           </p>
         </Link>

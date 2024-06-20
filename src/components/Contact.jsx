@@ -42,9 +42,9 @@ const Contact = () => {
         'service_vjqdwfl','template_9ml00o9',
         {
           from_name: form.name,
-          to_name: "Shashi",
+          to_name: "Rohit",
           from_email: form.email,
-          to_email: "hibye31583@gmail.com",
+          to_email: "rohithamlpur@gmail.com",
           message: form.message,
         },
         // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY

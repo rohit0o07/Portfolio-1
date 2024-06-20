@@ -120,16 +120,17 @@ import {
   
   const experiences = [
     {
-      title: "Full Stack Mern Developer",
-      company_name: "Murmu Technologies",
+      title: "Front End Developer",
+      company_name: "Trangla Innovations Pvt Ltd",
       icon: mt,
       iconBg: "#ffffff",
-      date: "March 2020 - April 2021",
+      date: "August 2022 - May 2024",
       points: [
-        "Designed and implemented responsive user interfaces using React.js.",
+        "Involved in various SDLC phases such as requirement gathering, data modeling, analysis,architecture design, and development, creatingdynamic web applications using React JS,JavaScript, PrimeReact, and Material UI.",
+        "Worked with business users to understand needs,Consumed RESTful APIs and translated UI/UXdesigns into code using HTML5 and CSS3, while employing Agile methodologies",
         "Optimized front-end performance by implementing code-splitting techniques and lazy loading, reducing initial load times by 30%.",
         "Developed RESTful APIs using Node.js and Express, facilitating seamless data exchange between the client and server.",
-        "Implemented database optimizations in MongoDB, reducing query response times by 40\% and reduced database load.",
+        "Participated in performance analysis, design,development, and testing, and utilized Reactcomponents, state, props, forms, events, routers,and hooks.",
       ],
     },
     // {
@@ -202,9 +203,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ecommerce Application",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An eCommerce application is a digital platform enabling users to browse, purchase, and manage orders of products online with features like secure payments, user authentication, and personalized recommendations.",
       tags: [
         {
           name: "react",
@@ -220,13 +221,13 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rohit0o07/newreactecommerce2024.git",
     },
     {
-      name: "Job IT",
+      name: "Real Estate Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
+        "Real Estate is the best place to find your next perfect place to live.We have a wide range of properties for you to choose from.",
+        tags:[
         {
           name: "react",
           color: "blue-text-gradient",
@@ -241,12 +242,12 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
-    },
+      source_code_link: "https://github.com/rohit0o07/abode-realEstateApp",
+    }
+,
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "NetFlix Clone",
+      description:"A comprehensive travel booking platform that allows users to watch videos and offers curated recommendations for popular movies",
       tags: [
         {
           name: "nextjs",
@@ -262,8 +263,30 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
+      source_code_link: "https://github.com/rohit0o07/netflix-clone.git",
+    }
+  ,
+  // {
+  //   name: "Hoverex ",
+  //   description:"A comprehensive travel booking platform that allows users to watch videos and offers curated recommendations for popular movies",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image:meta,
+  //   source_code_link: "https://github.com/rohit0o07/hoverex/tree/master",
+  // }
+
+]
   
   export { services, technologies, experiences, testimonials, projects };
